@@ -160,9 +160,18 @@ button:hover {
   text-align: center;
 }
 
+.developer{
+  color: var(--secondary-color);
+}
+
+.designer{
+  color: var(--third-color);
+}
+
 .banner-img{
   width: 40%;
   border-radius: 4px;
+  border-bottom: 10px solid var(--forth-color);
 }
 
 .contact-gird,.exp-grid{
@@ -312,6 +321,7 @@ button:hover {
 
   .banner-img{
     width: 30%;
+    border-right: 10px solid var(--forth-color);
   }
 
   .project{
