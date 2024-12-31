@@ -317,11 +317,14 @@ button:hover {
   .banner-text{
     text-align: left;
     width: 50%;
+    padding: 8px;
+    border-left: 10px solid var(--forth-color);
   }
 
   .banner-img{
     width: 30%;
     border-right: 10px solid var(--forth-color);
+    border-bottom: none;
   }
 
   .project{
