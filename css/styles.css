@@ -170,7 +170,7 @@ button:hover {
 }
 
 .banner-img{
-  width: 40%;
+  width: 50%;
   border-radius: 4px;
   border-bottom: 10px solid var(--forth-color);
   padding:8px;
