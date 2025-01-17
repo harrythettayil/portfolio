@@ -93,6 +93,7 @@ a {
 .container {
   width: 100%;
   padding: 32px 16px;
+  scroll-margin-top: 60px;
 }
 
 /* --- Utility Classes --- */
@@ -277,8 +278,41 @@ button:hover {
   flex-direction: row;
 }
 
+.nav{
+  margin: 16px auto 0;
+  padding: 16px;
+  border-radius: 8px;
+  position: sticky;
+  top: 16px;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.1); /* Slightly darker semi-transparent background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(24px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(12px); /* Frosted glass for Safari */
+}
+
+.nav-links{
+  gap: 16px;
+  margin: 0 auto;
+}
+
+.nav-links a {
+transition: 0.35s;
+}
+
+.nav-links a:hover {
+text-shadow: 0 0 15px var(--primary-color);
+-moz-transform: scale(1.05);
+-webkit-transform: scale(1.05);
+-o-transform: scale(1.05);
+transform: scale(1.05);
+}
+
 /* --- Responsive Design --- */
 @media (min-width: 768px) {
+  .nav{
+    width: 30%;
+}
 
   .mob-hide{
     display: unset;
